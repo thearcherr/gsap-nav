@@ -92,13 +92,13 @@ export default function Menu() {
             <span><Link onClick={() => setIsOpen(false)} href={'/'} className="md:text-7xl text-3xl orbitron text-black">
               Home<sup>(01)</sup>
             </Link></span>
-            <span><Link onClick={() => setIsOpen(false)} href={'/'} className="md:text-7xl text-3xl orbitron text-black">
+            <span><Link onClick={() => setIsOpen(false)} href={'/work'} className="md:text-7xl text-3xl orbitron text-black">
               Work<sup>(02)</sup>
             </Link></span>
-            <span><Link onClick={() => setIsOpen(false)} href={'/'} className="md:text-7xl text-3xl orbitron text-black">
+            <span><Link onClick={() => setIsOpen(false)} href={'/about'} className="md:text-7xl text-3xl orbitron text-black">
               About<sup>(03)</sup>
             </Link></span>
-            <span><Link onClick={() => setIsOpen(false)} href={'/'} className="md:text-7xl text-3xl orbitron text-black">
+            <span><Link onClick={() => setIsOpen(false)} href={'/lab'} className="md:text-7xl text-3xl orbitron text-black">
               Lab<sup>(04)</sup>
             </Link></span>
           </div>
