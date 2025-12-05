@@ -28,9 +28,8 @@ export default function Menu() {
       }
     );
 
-    // --- Text items ---
     tl.current.from(
-      ".links-div h1",
+      ".links-div span",
       {
         duration: 0.5,
         ease: "power3.out",
@@ -90,18 +89,18 @@ export default function Menu() {
 
         <div className="flex flex-row h-screen links-div">
           <div className="flex flex-col justify-center items-center mx-auto">
-            <Link onClick={() => setIsOpen(false)} href={'/'} className="md:text-7xl text-3xl orbitron text-black">
+            <span><Link onClick={() => setIsOpen(false)} href={'/'} className="md:text-7xl text-3xl orbitron text-black">
               Home<sup>(01)</sup>
-            </Link>
-            <Link onClick={() => setIsOpen(false)} href={'/work'} className="md:text-7xl text-3xl orbitron text-black">
+            </Link></span>
+            <span><Link onClick={() => setIsOpen(false)} href={'/'} className="md:text-7xl text-3xl orbitron text-black">
               Work<sup>(02)</sup>
-            </Link>
-            <Link onClick={() => setIsOpen(false)} href={'/about'} className="md:text-7xl text-3xl orbitron text-black">
+            </Link></span>
+            <span><Link onClick={() => setIsOpen(false)} href={'/'} className="md:text-7xl text-3xl orbitron text-black">
               About<sup>(03)</sup>
-            </Link>
-            <Link onClick={() => setIsOpen(false)} href={'/lab'} className="md:text-7xl text-3xl orbitron text-black">
+            </Link></span>
+            <span><Link onClick={() => setIsOpen(false)} href={'/'} className="md:text-7xl text-3xl orbitron text-black">
               Lab<sup>(04)</sup>
-            </Link>
+            </Link></span>
           </div>
 
           <div className="flex justify-center items-center">
